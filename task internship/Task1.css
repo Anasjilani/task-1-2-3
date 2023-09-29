@@ -1,0 +1,49 @@
+body {
+    background-image: url(nphrgz8yfnjylrwfr0yl.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .calculator {
+    background-color: black;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(HD-wallpaper-scientific-calculator-vivid-calculator-scientific-technology-abstract-elegant-calculation-x-logic.jpg);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    background-color: lightblue;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: grey;
+  }

@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+#about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#about img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+#skills {
+    margin-top: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#projects {
+    margin-top: 20px;
+    display: block;
+    /* justify-content: center; */
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 24px;
+}
+
+#resume {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+}
+#div1 {
+    /* width: 40%; */
+    margin-top: 20px;
+    display: block;
+}
+#div2 {
+    /* width: 60%; */
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#image {
+ /* width: fit-content; */
+ /* object-fit: cover; */
+ /* height: "50%"; */
+ width: "100%";
+}
+#image1 {
+    /* width: fit-content; */
+    /* object-fit: cover; */
+    /* height: "50%"; */
+    /* width: "100%"; */
+    padding: 80;
+    margin-top: "30px";
+    height: 80vh;
+    /* width: 80vh; */
+   }
+   #image2 {
+    /* width: fit-content; */
+    /* object-fit: cover; */
+    /* height: "50%"; */
+    /* width: "100%"; */
+    padding: 80;
+    height: 80vh;
+    /* width: 80vh; */
+   }
